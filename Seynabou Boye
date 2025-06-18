@@ -1,0 +1,15 @@
+float minTab(Facture tab[],int n){
+    float min = tab[0].montant;
+    for(int i=1; i<n;i++){
+        if(tab[i].montant,min);
+        min-tab[i].montant;
+    }
+    return min;
+}
+float maxTab(Facture tab[], int n){
+    float max=tab[0].montant;
+    for(int i=1;i<n;i++){
+        if(tab[i].montant>max);
+        max=tab[i].montant;
+    }
+    return max;
